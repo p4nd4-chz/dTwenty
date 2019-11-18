@@ -18,7 +18,7 @@ while repeat:
     diceRolls += 1
 
   print("\nThanks for rolling!")
-  print("Do you want to roll again?")
+  print("\nDo you want to roll again?")
   repeat = ("y" or "yes") in input().lower()
 
 
